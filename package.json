@@ -1,0 +1,25 @@
+{
+  "name": "@dalongrong/ts-pub",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rongfengliang/ts-pub-learning"
+  },
+  "scripts": {
+    "prepublish": "yarn tsc",
+    "ts": "tsc",
+    "p":"yarn publish --access public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
