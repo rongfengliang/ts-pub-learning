@@ -1,6 +1,6 @@
 {
   "name": "@dalongrong/ts-pub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -13,7 +13,7 @@
   "scripts": {
     "prepublish": "yarn tsc",
     "ts": "tsc",
-    "p":"yarn publish --access public"
+    "p": "yarn publish --access public"
   },
   "license": "MIT",
   "devDependencies": {
